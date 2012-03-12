@@ -50,3 +50,185 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	margin:0 auto;
+	width: 960px;
+	background-color:rgb(243, 247,228);
+	}
+
+#site-header h1 a {
+	display:block;
+	text-indent:-9999px;
+	position:relative;
+	width:306px;
+	height: 123px;
+	background:url(images/logo.png) no-repeat top left;
+	}
+	
+
+nav#top-nav { 
+	position:absolute; 
+	right:200px;
+	top:0px;
+	padding:100px, 100px, 100px, 0px;
+	font-family:verdana;
+	font-size:10px;
+	}
+	
+nav#top-nav a {
+	color:rgb(116,73, 24);
+	text-decoration:none;
+	padding-left:7px;
+	padding-right:7px;
+	}
+	
+div#menu-wrapper {
+	background-color:whiteSmoke;
+	width:960px;
+	padding-bottom:70px;
+	}
+	
+nav#main-menu ul li {
+	display:block; 
+	background-color:rgb(116,73, 24);
+	float:left;
+	}
+	
+nav#main-menu ul li a 
+	{ 
+	float:left;
+	display:inline-block;
+	margin:10px;
+	color:white;
+	text-decoration:none;
+	font-family:verdana;
+	font-size:18px;
+	text-transform:uppercase;
+	}
+	
+div#content 
+	{
+	padding-top:70px;
+	float:left;
+	background-color: white; 
+	}
+
+article#page
+	{
+	float:left;
+	width:500px;
+	}
+
+article#page h1
+	{
+	font-size:34px;
+	color:rgb(116,73, 24);
+	}
+article#page h2
+	{
+	font-size:18px;
+	font-family:verdana;
+	text-transform:uppercase;
+	color:rgb(116,73, 24);
+	}
+	
+article#page p
+	{
+	font-size:12px;
+	}
+	
+aside#sidebar 
+	{
+	padding-top:30px;
+	font-size:18px;
+	font-family:verdana;
+	float:right;
+	padding-left:50px;
+	width:410px;
+	padding-bottom:100px;
+	color:rgb(116,73, 24);
+	}
+	
+aside#sidebar ul li a
+	{font-size:12px;
+	text-decoration:none;
+	color:rgb(116,73, 24);
+	}
+	
+	
+	
+div#footer-wrapper
+	{
+	clear:both;
+	position:relative;
+	}
+	
+footer#site-footer
+	{background-color:rgb(116,73, 24);
+	padding:20px;
+	height:150px;
+	width960px;
+	}
+	
+section#footer-contact
+	{width:200px;
+	padding:20px;
+	float:left;
+	}
+	
+section#footer-contact h1
+	{
+	color:white;
+	font-family:verdana;
+	font-size:18px
+	}
+	
+section#footer-contact p
+	{
+	color:white;
+	font-family:verdana;
+	font-size:12px;
+	}
+	
+section#footer-follow
+	{
+	float:right;
+	padding:20px;
+	width:180px;
+	height:99px;
+	}
+	
+	
+section#footer-follow h1
+	{
+	color:white;
+	font-size:18px;
+	font-family:verdana;
+	}
+	
+section#footer-follow ul li 
+	{float:left;
+
+	}
+	
+section#footer-follow ul li a
+	{list-style:none;
+	}
