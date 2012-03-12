@@ -96,6 +96,7 @@ h1 {
 header {
 	position:relative;
 	margin:50px 0px 50px 275px;
+	background:url(images/dogsvscats-logo.gif) no-repeat top left;
 }
 
 
@@ -105,7 +106,16 @@ header {
 	border-bottom-style:solid;
 	border-bottom-width:4px;
 	text-align:center;
+	
 }
+#top-menu ul
+	{
+	margin:0 auto;
+	width: 900px;
+	list-style: disc;
+	}	
+
+
 
 #top-menu ul li {
 	display:inline-block; 
@@ -113,6 +123,7 @@ header {
 	font-weight:bold;
 	text-transform:uppercase;
 	padding:6px 20px 3px 20px;
+
 }
 
 #top-menu ul li a {
