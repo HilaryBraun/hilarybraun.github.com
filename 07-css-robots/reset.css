@@ -67,11 +67,23 @@ table {
 
 
 
-
-body {
+#site-wrapper {
+	background-color:rgb(238,244, 216);
+	}
+	
+#site-header {
 	margin:0 auto;
-	width: 960px;
-	background-color:rgb(243, 247,228);
+	width:960px;
+	}
+
+#menu-wrapper {
+	background-color:rgb(116,73, 24);
+	height:40px;
+	}
+
+#main-menu {
+	margin:0 auto;
+	width:960px;
 	}
 
 #site-header h1 a {
@@ -100,11 +112,9 @@ nav#top-nav a {
 	padding-right:7px;
 	}
 	
-div#menu-wrapper {
-	background-color:whiteSmoke;
-	width:960px;
-	padding-bottom:70px;
-	}
+a:hover {
+	color:green;
+		}
 	
 nav#main-menu ul li {
 	display:block; 
@@ -126,9 +136,10 @@ nav#main-menu ul li a
 	
 div#content 
 	{
-	padding-top:40px;
-	float:left;
+	margin:0 auto;
+	width: 960px;
 	background-color: white; 
+	padding-top: 30px;
 	}
 
 article#page
@@ -173,19 +184,23 @@ aside#sidebar ul li a
 	color:rgb(116,73, 24);
 	}
 	
-	
+aside#sidebar ul 
+	{
+	padding-bottom:50px;
+	}
 	
 div#footer-wrapper
 	{
 	clear:both;
-	position:relative;
+	background-color:rgb(116,73, 24);
 	}
 	
 footer#site-footer
-	{background-color:rgb(116,73, 24);
+	{
+	margin: 0 auto;
 	padding:20px;
 	height:150px;
-	width960px;
+	width:960px;
 	}
 	
 section#footer-contact
