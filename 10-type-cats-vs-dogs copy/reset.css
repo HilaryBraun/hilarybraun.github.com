@@ -93,11 +93,48 @@ h1 {
 	
 header {
 	position:relative;
-	margin:5% 0px 5% 21%;
-	background:url(images/dogsvscats-logo.gif) no-repeat top left;
+	margin:5% 5% 5% 21%;
 	max-width:100%;
+	background-color:green;
+	}
+
+h2 {
+	float: left;
+	font-family: 'LeagueGothicRegular';
+	font-size: 120px;
+	text-transform:uppercase;
+	padding:10px;
 	}
 	
+h3 {
+	float:left;
+	font-family:georgia;
+	font-size: 60px;
+	font-style:italic;
+	font-weight: bold;
+	color: grey;
+	margin-top: 45px;
+	height: 30px;
+	line-height:20px;
+	border-top-width:5px;
+	border-top-style:double;
+	border-top-color:grey;
+	border-bottom-width:5px;
+	border-bottom-style:double;
+	border-bottom-color:grey;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+	
+	
+	h4 {
+	float: left;
+	font-family: 'LeagueGothicRegular';
+	font-size: 120px;
+	text-transform:uppercase;
+	padding:10px;
+	}
+
 img {
 	max-width:100%;
 	}
