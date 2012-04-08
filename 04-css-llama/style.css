@@ -80,7 +80,7 @@ header#site-header h1 a { display:block; width:200px; height:200px; background:u
 
 
 #main-content {margin:0 auto; width:900px; padding-top:50px; }
- article { background-color:yellow; float:left; width:40%; }
+ article { background-color:yellow; float:left; width:40%; padding:2%; }
  article { background-color:white; float:left; }
  #main-content img { float:left; padding:5px; width:50%; }
 
