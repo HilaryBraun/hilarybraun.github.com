@@ -30,6 +30,98 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+}
+
+body {
+	margin:0 auto;
+	width:1024px;
+	max-width:100%;
+	background:url(images/background.png);
+
+	}
+	
+	
+header {
+	margin:5% 10% 5% 15%;
+	background-color:yellow;
+	width:800px;
+	height:150px;
+	}
+	
+header img {
+	position:absolute;
+	top:0;
+	}
+	
+
+	
+#menu-wrapper {
+	float:left;
+	width:150px;
+	}
+
+#site-wrapper {
+	background-color:white;
+	margin:0 auto;
+	width:1000px;
+	height:200px;
+	}
+
+#page-wrapper {
+	background-color:white;
+	margin-top:200px;
+	margin:0 auto;
+	width:1000px;
+	}
+
+	
+p {
+	float:left;
+	800px;
+	}
+	
+h1 {
+	float:right;
+	width:800px;
+	}
+
+#portfolio {
+	float:left;
+	width:800px;
+	}
+
+#main-menu li:hover {  
+    color:cyan;
+    }
+
+
+	
+ul {
+	list-style-type:none;
+	margin-right:15px;
+	margin-left:5px;
+	text-align:right;
+	}
+
+li a {
+	text-decoration:none;
+	text-align:right;
+	font-family:arial;
+	font-size:.5em;
+	color:orange;
+	}
+	
+
+	
+h1 {
+	font-size:2em; 
+	font-family: 'Raleway', cursive;	
+	margin:1% 0px 0;
+	}	
+	
+#site-footer {
+	clear:both;
+	}
 
 
 
