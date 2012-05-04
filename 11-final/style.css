@@ -42,26 +42,29 @@ body {
 	
 	
 header {
-	margin:5% 10% 5% 15%;
-	background-color:yellow;
+	margin:3.75% 5% 5% 15%;
 	width:800px;
 	height:150px;
 	}
 	
+header #site-header {
+	height:120px; }
+	
 header img {
-	position:absolute;
-	top:0;
+	position:relative;
+	margin-top:15px;
 	}
 	
-
 	
 #menu-wrapper {
+	clear:both;
 	float:left;
 	width:150px;
 	}
 
 #site-wrapper {
 	background-color:white;
+	margin-top:10px;
 	margin:0 auto;
 	width:1000px;
 	height:200px;
@@ -76,42 +79,69 @@ header img {
 
 	
 p {
+	margin-top:10px;
 	float:left;
-	800px;
+	width:550px;
+	font-family:georgia;
+	font-size:15px;
+	margin-bottom:15px;
+	line-height:150%;
 	}
 	
 h1 {
 	float:right;
+	width:600px;
+	color:#FF9933;
+	clear:both;
+	}
+	
+h2 {
+	float:left;
+	font-size:1.5em;
 	width:800px;
+	font-family: 'raleway';
+	color:grey;
+	}
+	
+h3 {
+	float:left;
+	font-size:1em;
+	width:800px;
+	font-family: 'raleway';
+	color:#FF9933;
 	}
 
 #portfolio {
 	float:left;
-	width:800px;
+	width:600px;
+	margin-left:20px;
 	}
-
-#main-menu li:hover {  
-    color:cyan;
-    }
 
 
 	
 ul {
 	list-style-type:none;
-	margin-right:15px;
+	margin-right:18px;
 	margin-left:5px;
 	text-align:right;
+	}
+	
+ul li {
+	margin:3px;
 	}
 
 li a {
 	text-decoration:none;
 	text-align:right;
-	font-family:arial;
-	font-size:.5em;
-	color:orange;
+	font-family: 'raleway';
+	font-size:.75em;
+	color:grey;
 	}
 	
-
+li a:hover {
+	color:#FF9933;
+	text-decoration:none;
+}
 	
 h1 {
 	font-size:2em; 
@@ -122,6 +152,19 @@ h1 {
 #site-footer {
 	clear:both;
 	}
+	
+#footer-nav {
+	clear:both;
+	margin-top:40px;
+	float:right;
+	font-family: 'Raleway' , bold;
+	font-size:1em;
+	}
 
-
+#footer-nav a {
+	text-decoration:none;
+	color:#FF9900;
+	font-family: 'Raleway' , cursive;
+	font-size:.75em;
+	}
 
