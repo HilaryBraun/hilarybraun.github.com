@@ -99,7 +99,7 @@ h2 {
 	float:left;
 	font-size:1.5em;
 	width:800px;
-	font-family: 'raleway';
+	font-family: 'carme';
 	color:grey;
 	}
 	
@@ -107,7 +107,7 @@ h3 {
 	float:left;
 	font-size:1em;
 	width:800px;
-	font-family: 'raleway';
+	font-family: 'carme';
 	color:#FF9933;
 	}
 
@@ -133,7 +133,7 @@ ul li {
 li a {
 	text-decoration:none;
 	text-align:right;
-	font-family: 'raleway';
+	font-family: 'carme';
 	font-size:.75em;
 	color:grey;
 	}
@@ -145,7 +145,7 @@ li a:hover {
 	
 h1 {
 	font-size:2em; 
-	font-family: 'Raleway', cursive;	
+	font-family: 'carme', cursive;	
 	margin:1% 0px 0;
 	}	
 	
@@ -157,14 +157,14 @@ h1 {
 	clear:both;
 	margin-top:40px;
 	float:right;
-	font-family: 'Raleway' , bold;
+	font-family: 'carme' , bold;
 	font-size:1em;
 	}
 
 #footer-nav a {
 	text-decoration:none;
 	color:#FF9900;
-	font-family: 'Raleway' , cursive;
+	font-family: 'carme' , cursive;
 	font-size:.75em;
 	}
 
